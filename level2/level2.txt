@@ -1,0 +1,19 @@
+1.
+It's the browsers hierarchy and stands for Document Object Model.
+As soon as a page is loaded, the browser creates a DOM.
+It's very important to understand the DOM, while working with CSS/JS, since these two can manipulate the DOM tree.
+
+2.
+target.innerHTML = "something" <- changes an elements inner html
+target.appendChild(element); <- append an element to the DOM
+target.parentNode.removeChild(target); <- remove an element from the DOM
+
+3.
+It's a boolean value, which executes asynchronously in relation to page parsing.
+Meaning, it will execute as soon as it's available.
+Very nice to use when fetching REST Api.
+
+4.
+It's where you can find the js-file and a perfect place to debug your js code.
+You can add breakpoints to your code, refresh the browser and run through your code step, by step.
+If console.log(); doesn't work, this is a deeper way of debugging.
