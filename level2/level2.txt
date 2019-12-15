@@ -17,3 +17,25 @@ Very nice to use when fetching REST Api.
 It's where you can find the js-file and a perfect place to debug your js code.
 You can add breakpoints to your code, refresh the browser and run through your code step, by step.
 If console.log(); doesn't work, this is a deeper way of debugging.
+
+5.
+It's a way to execute code asynchronously.
+It doesn't follow the natural order of parsing.
+When a promise is called, the code doesn't wait for a response, but continues parsing.
+Then the promise is pending, and will return later at some point, either as fulfilled or rejected.
+
+6.
+Application Programming Interface. It's gives you a way of communicating with different software.
+When using JS's fetch, one can connect to an API and fetch data.
+An API for a website allows two software programs to communicate.
+
+7.
+I think of it as an alarm system, where the programmer decides the actions:
+  1. select a place to set the trigger
+  2. select what should trigger the alarm
+  3. decide what happens, once it's triggered
+Select which element to "listen" to.
+You can "listen" for clicks, mouseover, keydown and a lot more.
+Then when the alarm is triggered, it runs what ever code that's inside the code block.
+
+8.
