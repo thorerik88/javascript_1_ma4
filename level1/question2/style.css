@@ -6,7 +6,6 @@
 
 body {
   display: inline-block;
-  text-align: center;
 }
 
 h1 {
@@ -15,14 +14,6 @@ h1 {
 
 h2, p {
   padding: .4em;
-}
-
-button {
-  width: 90%;
-  padding: 1em;
-  font-size: 2em;
-  margin: .7em 0 2em;
-  cursor: pointer;
 }
 
 section {
@@ -73,11 +64,6 @@ div > :last-child:not(:only-child) {
   section div {
     width: 30%;
   }
-
-  button {
-    width: 50%;
-    padding: 1.5em;
-  }
 }
 
 @media only screen and (min-width: 1300px) {
@@ -87,9 +73,5 @@ div > :last-child:not(:only-child) {
 
   section div {
     width: 20%;
-  }
-
-  button {
-    padding: 1em;
   }
 }
