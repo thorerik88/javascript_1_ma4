@@ -39,3 +39,7 @@ You can "listen" for clicks, mouseover, keydown and a lot more.
 Then when the alarm is triggered, it runs what ever code that's inside the code block.
 
 8.
+For instance if you have a branch of elements, like this:
+Div > Span > Button
+When you trigger the Button handler, you'll successively trigger the ancestors/parents of the same nesting hierarchy, till it reaches the outermost element
+in the DOM tree. It kind of bubbles up the DOM branch, parent to parent.
